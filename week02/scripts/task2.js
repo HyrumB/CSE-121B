@@ -15,13 +15,17 @@ var year = 2023
 document.querySelector('#year').textContent = year;
 
 // Step 5: declare and instantiate a variable to hold the name of your picture
-var pictureSource = "images/20070101-085854-A60-30521.jpg"
-
 // Step 6: copy your image into the "images" folder
-document.getElementById('#mainImage').src = pictureSource;
 // Step 7: place the value of the picture variable into the HTML file (hint: document.querySelector().setAttribute())
-document.querySelector('#mainImage').src = pictureSource;
 
+var myPhotoSrc = "images/childhoodPhoto.jpg"
+
+document.getElementById("photo").src = myPhotoSrc;
+
+var myPhoto = document.getElementById("photo")
+
+myPhoto.style.height = '300px';
+myPhoto.style.width = '240px';
 
 
 /* ARRAYS */
