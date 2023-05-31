@@ -1,0 +1,32 @@
+[
+    {
+        "gundamName": "Gundam Barbatos",
+        "gundamText": "During an event only known as the calamity war, an organization known as Gjallarhorn built 72 Gundam frames to put an end to the war. Which they did but in the process but 8 known Gundam frames were lost from Gjallarhorn's possession one of the lost Gundam frames BARBATOS came into the hands of a paramilitary organization known as CGS (Chryse Guard Security) who proceeded to just use it as a generator for their main base. But after a revolt from the “employees”, who rebranded the company to Tekkadan (or Iron Flower Brigade), they began to use the Gundam frame known as BARBATOS to its full potential. It also is later upgraded to the BARBATOS LUPIS and finally gets upgraded to BARBATOS LUPIS REX",
+        "gundamImgURL": "./img/ASW-G-08_Gundam_Barbatos_1st_Form.webp"
+    },
+    {
+        "gundamName": "Gundam Gusion Rebake",
+        "gundamText": "During an event only known as the calamity war, an organization known as Gjallarhorn built 72 Gundam frames to put an end to the war, Which they did but in the process all but 8 known Gundam frames were lost from Gjallarhorn's possession one of the lost Gundam frames known as the GUSON, a heavily armored frame with two Ahab reactors to maintain its mobility, it was found by a group of pirates in the middle of a hard to navigate space debris zone after being claimed it was passed from pirate group to pirate group until it was given to a group of pirates known as the brewers, who in their second conflict with the group Tekkadan. The brewers proceed to lose the battle, and the GUSON then fell into the hands of Tekkadan who after some deliberation renamed it to the GUSON REBAKE. And it was later upgraded to the GUSON REBAKE FULL-CITY",
+        "gundamImgURL": "./img/Gusion-Rebake_Front.webp"
+    },
+    {
+        "gundamName": "Gundam Flauros",
+        "gundamText": "During an event only known as the calamity war, an organization known as Gjallarhorn built 72 Gundam frames to put an end to the war, Which they did but in the process, all but 8 known Gundam frames were lost from Gjallarhorn's possession one of the lost Gundam frames known as the FLAUROS which was abandoned after being buried in a mine with one of the mobile armors (Hashmal) they were built to fight, and there it sat until Tekkadan unearthed both the mobile armor Hashmal and the FLAUROS they sent the FLAUROS off to be repaired and after its repair, it was instrumental in the defeat of the accidentally reawakened Hashmal. The pilot of the FLAUROS also refers to it as the Ryusei-Go.",
+        "gundamImgURL": "./img/ASW-G-64_Gundam_Flauros.webp"
+    },
+    {
+        "gundamName": "Gundam Hajiroboshi",
+        "gundamText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "gundamImgURL": "./img/Gundam_Hajiroboshi_2nd_Form_(Front).png"
+    },
+    {
+        "gundamName": "Gundam Bael",
+        "gundamText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "gundamImgURL": "./img/ASW-01_Gundam_Bael.webp"
+    },
+    {
+        "gundamName": "Gundam Frame",
+        "gundamText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "gundamImgURL": "./img/GundamFrameFront.webp"
+    }
+]

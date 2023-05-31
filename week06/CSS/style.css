@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Stick+No+Bills:wght@300&display=swap');
+
+*,
+*:before *:after {
+    box-sizing: border-box;
+
+}
+
+:root {
+    --primary-color: #2c52b3;
+    --secondary-color: #fb2f38;
+    --accent1-color: #fff867;
+    --accent2-color: #ffffff;
+    --accent3-color: #5a5b6d;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Black Ops One', cursive;
+    --paragraph-font: 'Stick No Bills', sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #2c52b3;
+    /* headlines on a white background */
+    --headline-color-on-color: white;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #2c52b3;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: white;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #2c52b3;
+    --nav-link-color: #2c52b3;
+    --nav-background-color: #fff867;
+    --nav-hover-link-color: #fb2f38;
+    --nav-hover-background-color: #2c52b3;
+}
+
+body {
+    background-color: var(--accent2-color);
+    font-family: var(--paragraph-font);
+
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+/* this is code for the header */
+header {
+    background-color: var(--primary-color);
+    /* padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: var(--nav-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+
+/* this code is for main  */
+.home-pg .content {
+    max-width: 1600px;
+    /* display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: auto; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+.home-pg h1,
+.home-pg h2 {
+    margin: 10px auto;
+    display: block;
+}
+
+.home-pg h1 {
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.home-pg p {
+    /* background-color: aquamarine; */
+    display: block;
+    margin: 3em 8em;
+    text-align: center;
+    font-size: 1em;
+    color: var(--paragraph-color-on-color);
+}
+
+.home-pg img {
+    width: 30em;
+    display: block;
+    margin: 3em auto;
+}
+
+
+/* css for pg 2 & 3 */
+.pg-2-3-content{
+    max-width: 1600;
+}
+
+.gundam_grid{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.1fr 1fr 0.5fr;
+    grid-template-rows: 0.1fr 0.1fr 0.3fr 0.3fr 0.3fr 0.3fr;
+}
+
+.pg-2-3-content h1 {
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+
+.pg-2-3-content h2 {
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+
+.p2-3-img {
+    width: 400px;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 3/5;
+}
+
+.pg-2-3-content article {
+    grid-column: 4/5;
+    grid-row: 4/6;
+    /* font-size: 25px; */
+    /* background-color: var(--accent3-color); */
+}
+
+ p {
+    background-color: var(--primary-color);
+    color: var(--paragraph-color-on-color);
+    padding: 5px;
+    border: solid 5px;
+    border-color: var(--secondary-color);
+}
+
+
+
+/* this is all code for the footer */
+footer h3 a:hover {
+
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: var(--headline-color-on-color);
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+footer a {
+    color: var(--headline-color-on-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: var(--nav-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+footer .social img {
+    padding-top: 15px;
+}
